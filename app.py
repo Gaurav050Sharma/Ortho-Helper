@@ -3,6 +3,11 @@
 
 import streamlit as st
 import os
+
+# Force usage of legacy Keras (tf-keras) for compatibility with models trained on TF < 2.16
+# This must be set before importing tensorflow
+os.environ['TF_USE_LEGACY_KERAS'] = '1'
+
 import numpy as np
 from PIL import Image
 import cv2
