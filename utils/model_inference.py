@@ -12,14 +12,14 @@ import tensorflow as tf
 # Try to import tf_keras directly for maximum compatibility
 try:
     import tf_keras as keras
-    print("Using tf_keras (Legacy Keras) directly")
+    print(f"Using tf_keras (Legacy Keras) directly. Version: {keras.__version__}")
 except ImportError:
     try:
         from tensorflow import keras
-        print(f"Using tensorflow.keras (Version: {tf.__version__})")
+        print(f"Using tensorflow.keras (Version: {tf.__version__}, Keras: {keras.__version__})")
     except ImportError:
         import keras
-        print("Using standalone keras")
+        print(f"Using standalone keras (Version: {keras.__version__})")
 
 import streamlit as st
 from typing import Tuple, Dict, Any
