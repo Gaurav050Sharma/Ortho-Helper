@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-10-03T15:46:08.962877",
+  "model_architecture": "EfficientNetB0",
+  "training_params": {
+    "epochs": 10,
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "img_size": "224x224"
+  },
+  "results": {
+    "test_accuracy": 0.375,
+    "test_loss": 0.7021569013595581,
+    "auc_score": 0.762601358755205
+  },
+  "dataset_info": {
+    "train_normal": 1341,
+    "train_pneumonia": 3875,
+    "test_samples": 624
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "model_id": "cardiomegaly_classifier_v2",
+  "model_name": "DenseNet121 Heart Enlargement Detection Classifier",
+  "dataset_type": "cardiomegaly",
+  "classifier_name": "cardiomegaly_classifier",
+  "version": "2.0_classifier",
+  "architecture": "DenseNet121",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "num_classes": 2,
+  "class_names": [
+    "Normal",
+    "Cardiomegaly"
+  ],
+  "classes": [
+    "Normal",
+    "Cardiomegaly"
+  ],
+  "classification_task": "Heart Enlargement Detection",
+  "input_type": "Chest X-Ray",
+  "medical_condition": "Cardiac",
+  "performance_metrics": {
+    "accuracy": 0.63,
+    "test_accuracy": 0.63
+  },
+  "accuracy": 0.63,
+  "training_info": {
+    "training_date": "2025-10-06",
+    "performance_level": "Research Grade",
+    "clinical_readiness": "Research Phase"
+  },
+  "file_path": "cardiomegaly_classifier_v2.h5",
+  "export_path": "Cardiomegaly_Detection_Model_63.0_Accuracy.h5",
+  "file_size": 33.51,
+  "created_date": "2025-10-06",
+  "description": "AI model for detecting cardiomegaly in chest X-rays",
+  "tags": [
+    "DenseNet121",
+    "medical",
+    "classifier",
+    "cardiomegaly",
+    "exported"
+  ],
+  "gradcam_layer": "conv5_block16_2_conv",
+  "is_active": true,
+  "is_classifier": true,
+  "source_path": "new/cardiomegaly_densenet121/cardiomegaly_intensive_20251006_192404/cardiomegaly_densenet121_intensive_20251006_192404.h5"
+}

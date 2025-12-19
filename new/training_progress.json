@@ -1,0 +1,235 @@
+{
+  "pneumonia_densenet121_quick_test": {
+    "dataset": "pneumonia",
+    "architecture": "densenet121",
+    "configuration": "quick_test",
+    "status": "completed",
+    "timestamp": "2025-10-05T20:48:22.702875",
+    "results": {
+      "test_loss": 1.233096718788147,
+      "test_accuracy": 0.4749999940395355,
+      "epochs_trained": 3,
+      "training_samples": 160,
+      "test_samples": 40,
+      "training_time_seconds": 34.98190641403198,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_densenet121_standard": {
+    "dataset": "pneumonia",
+    "architecture": "densenet121",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-05T20:52:16.904328",
+    "results": {
+      "test_loss": 0.25386476516723633,
+      "test_accuracy": 0.8999999761581421,
+      "epochs_trained": 8,
+      "training_samples": 800,
+      "test_samples": 200,
+      "training_time_seconds": 234.14444780349731,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_densenet121_intensive": {
+    "dataset": "pneumonia",
+    "architecture": "densenet121",
+    "configuration": "intensive",
+    "status": "completed",
+    "timestamp": "2025-10-05T21:05:05.654719",
+    "results": {
+      "test_loss": 0.18429090082645416,
+      "test_accuracy": 0.9233333468437195,
+      "epochs_trained": 14,
+      "training_samples": 1700,
+      "test_samples": 300,
+      "training_time_seconds": 768.6743881702423,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_efficientnetb0_quick_test": {
+    "dataset": "pneumonia",
+    "architecture": "efficientnetb0",
+    "configuration": "quick_test",
+    "status": "completed",
+    "timestamp": "2025-10-05T21:05:33.563583",
+    "results": {
+      "test_loss": 0.694621205329895,
+      "test_accuracy": 0.4749999940395355,
+      "epochs_trained": 3,
+      "training_samples": 160,
+      "test_samples": 40,
+      "training_time_seconds": 27.837188005447388,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_efficientnetb0_standard": {
+    "dataset": "pneumonia",
+    "architecture": "efficientnetb0",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-05T21:06:59.277430",
+    "results": {
+      "test_loss": 0.6924925446510315,
+      "test_accuracy": 0.5249999761581421,
+      "epochs_trained": 5,
+      "training_samples": 800,
+      "test_samples": 200,
+      "training_time_seconds": 85.67682647705078,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_efficientnetb0_intensive": {
+    "dataset": "pneumonia",
+    "architecture": "efficientnetb0",
+    "configuration": "intensive",
+    "status": "completed",
+    "timestamp": "2025-10-05T21:13:57.289883",
+    "results": {
+      "test_loss": 0.6904979944229126,
+      "test_accuracy": 0.5333333611488342,
+      "epochs_trained": 15,
+      "training_samples": 1700,
+      "test_samples": 300,
+      "training_time_seconds": 417.9554376602173,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_resnet50_quick_test": {
+    "dataset": "pneumonia",
+    "architecture": "resnet50",
+    "configuration": "quick_test",
+    "status": "completed",
+    "timestamp": "2025-10-05T21:14:26.225141",
+    "results": {
+      "test_loss": 0.6604143381118774,
+      "test_accuracy": 0.6000000238418579,
+      "epochs_trained": 3,
+      "training_samples": 160,
+      "test_samples": 40,
+      "training_time_seconds": 28.863264560699463,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_resnet50_standard": {
+    "dataset": "pneumonia",
+    "architecture": "resnet50",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-05T21:18:33.268057",
+    "results": {
+      "test_loss": 0.4676627218723297,
+      "test_accuracy": 0.8799999952316284,
+      "epochs_trained": 8,
+      "training_samples": 800,
+      "test_samples": 200,
+      "training_time_seconds": 247.0109167098999,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_resnet50_intensive": {
+    "dataset": "pneumonia",
+    "architecture": "resnet50",
+    "configuration": "intensive",
+    "status": "completed",
+    "timestamp": "2025-10-05T21:33:20.767547",
+    "results": {
+      "test_loss": 0.5419862270355225,
+      "test_accuracy": 0.6966666579246521,
+      "epochs_trained": 15,
+      "training_samples": 1700,
+      "test_samples": 300,
+      "training_time_seconds": 887.4514853954315,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_vgg16_quick_test": {
+    "dataset": "pneumonia",
+    "architecture": "vgg16",
+    "configuration": "quick_test",
+    "status": "completed",
+    "timestamp": "2025-10-05T21:34:08.922554",
+    "results": {
+      "test_loss": 0.5975313186645508,
+      "test_accuracy": 0.699999988079071,
+      "epochs_trained": 3,
+      "training_samples": 160,
+      "test_samples": 40,
+      "training_time_seconds": 48.049994230270386,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_vgg16_standard": {
+    "dataset": "pneumonia",
+    "architecture": "vgg16",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-05T22:25:20.159379",
+    "results": {
+      "test_loss": 0.37620440125465393,
+      "test_accuracy": 0.8100000023841858,
+      "epochs_trained": 8,
+      "training_samples": 800,
+      "test_samples": 200,
+      "training_time_seconds": 355.33014488220215,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_vgg16_intensive": {
+    "dataset": "pneumonia",
+    "architecture": "vgg16",
+    "configuration": "intensive",
+    "status": "started",
+    "timestamp": "2025-10-06T05:09:34.201320",
+    "results": null
+  },
+  "pneumonia_densenet121_thermal_safe": {
+    "dataset": "pneumonia",
+    "architecture": "densenet121",
+    "configuration": "thermal_safe",
+    "status": "completed",
+    "timestamp": "2025-10-06T05:12:24.232518",
+    "results": {
+      "test_loss": 0.24703438580036163,
+      "test_accuracy": 0.8999999761581421,
+      "epochs_trained": 5,
+      "training_samples": 320,
+      "test_samples": 80,
+      "training_time_seconds": 149.7733166217804,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_efficientnetb0_thermal_safe": {
+    "dataset": "pneumonia",
+    "architecture": "efficientnetb0",
+    "configuration": "thermal_safe",
+    "status": "failed",
+    "timestamp": "2025-10-06T05:09:17.017388",
+    "results": {
+      "error": "Intra op parallelism cannot be modified after initialization.",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 1129, in run_comprehensive_training\n    model, history, results = self.train_model(model, X, y, config_info)\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 473, in train_model\n    self._apply_thermal_limits(cpu_limit, gpu_limit)\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 417, in _apply_thermal_limits\n    tf.config.threading.set_intra_op_parallelism_threads(2)\n  File \"C:\\Users\\gaura\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\tensorflow\\python\\framework\\config.py\", line 129, in set_intra_op_parallelism_threads\n    context.context().intra_op_parallelism_threads = num_threads\n  File \"C:\\Users\\gaura\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\tensorflow\\python\\eager\\context.py\", line 1976, in intra_op_parallelism_threads\n    raise RuntimeError(\nRuntimeError: Intra op parallelism cannot be modified after initialization.\n"
+    }
+  },
+  "pneumonia_resnet50_thermal_safe": {
+    "dataset": "pneumonia",
+    "architecture": "resnet50",
+    "configuration": "thermal_safe",
+    "status": "failed",
+    "timestamp": "2025-10-06T05:09:26.178401",
+    "results": {
+      "error": "Intra op parallelism cannot be modified after initialization.",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 1129, in run_comprehensive_training\n    model, history, results = self.train_model(model, X, y, config_info)\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 473, in train_model\n    self._apply_thermal_limits(cpu_limit, gpu_limit)\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 417, in _apply_thermal_limits\n    tf.config.threading.set_intra_op_parallelism_threads(2)\n  File \"C:\\Users\\gaura\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\tensorflow\\python\\framework\\config.py\", line 129, in set_intra_op_parallelism_threads\n    context.context().intra_op_parallelism_threads = num_threads\n  File \"C:\\Users\\gaura\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\tensorflow\\python\\eager\\context.py\", line 1976, in intra_op_parallelism_threads\n    raise RuntimeError(\nRuntimeError: Intra op parallelism cannot be modified after initialization.\n"
+    }
+  },
+  "pneumonia_vgg16_thermal_safe": {
+    "dataset": "pneumonia",
+    "architecture": "vgg16",
+    "configuration": "thermal_safe",
+    "status": "failed",
+    "timestamp": "2025-10-06T05:09:34.194319",
+    "results": {
+      "error": "Intra op parallelism cannot be modified after initialization.",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 1129, in run_comprehensive_training\n    model, history, results = self.train_model(model, X, y, config_info)\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 473, in train_model\n    self._apply_thermal_limits(cpu_limit, gpu_limit)\n  File \"D:\\Capstone\\orth10\\comprehensive_training_pipeline.py\", line 417, in _apply_thermal_limits\n    tf.config.threading.set_intra_op_parallelism_threads(2)\n  File \"C:\\Users\\gaura\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\tensorflow\\python\\framework\\config.py\", line 129, in set_intra_op_parallelism_threads\n    context.context().intra_op_parallelism_threads = num_threads\n  File \"C:\\Users\\gaura\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\tensorflow\\python\\eager\\context.py\", line 1976, in intra_op_parallelism_threads\n    raise RuntimeError(\nRuntimeError: Intra op parallelism cannot be modified after initialization.\n"
+    }
+  }
+}

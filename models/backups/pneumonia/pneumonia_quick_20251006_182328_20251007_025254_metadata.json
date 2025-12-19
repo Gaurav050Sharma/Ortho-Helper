@@ -1,0 +1,45 @@
+{
+  "model_id": "pneumonia_quick_20251006_182328",
+  "model_name": "Pneumonia Quick Model",
+  "dataset_type": "pneumonia",
+  "version": "v2.0",
+  "architecture": "DenseNet121",
+  "model_type": "Quick",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "num_classes": 2,
+  "class_names": [
+    "Normal",
+    "Pneumonia"
+  ],
+  "classes": [
+    "Normal",
+    "Pneumonia"
+  ],
+  "parameters": 7305281,
+  "performance_metrics": {
+    "test_accuracy": 0.75,
+    "training_time": "~3 minutes",
+    "inference_speed": "Medium"
+  },
+  "accuracy": 0.75,
+  "training_info": {
+    "timestamp": "20251006_182328",
+    "epochs": 5,
+    "batch_size": 32
+  },
+  "file_path": "pneumonia\\densenet121_pneumonia_intensive_20251006_182328.h5",
+  "file_size": 35136904,
+  "created_date": "2025-10-06T23:45:12.296414",
+  "description": "Quick DenseNet121 model for pneumonia detection",
+  "tags": [
+    "Quick",
+    "DenseNet121",
+    "pneumonia",
+    "binary_classification"
+  ],
+  "threshold": 0.5
+}

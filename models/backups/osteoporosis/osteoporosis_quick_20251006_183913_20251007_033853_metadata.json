@@ -1,0 +1,45 @@
+{
+  "model_id": "osteoporosis_quick_20251006_183913",
+  "model_name": "Osteoporosis Quick Model",
+  "dataset_type": "osteoporosis",
+  "version": "v2.0",
+  "architecture": "DenseNet121",
+  "model_type": "Quick",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "num_classes": 2,
+  "class_names": [
+    "Normal",
+    "Osteoporosis"
+  ],
+  "classes": [
+    "Normal",
+    "Osteoporosis"
+  ],
+  "parameters": 7305281,
+  "performance_metrics": {
+    "test_accuracy": 0.75,
+    "training_time": "~3 minutes",
+    "inference_speed": "Medium"
+  },
+  "accuracy": 0.75,
+  "training_info": {
+    "timestamp": "20251006_183913",
+    "epochs": 5,
+    "batch_size": 32
+  },
+  "file_path": "osteoporosis\\densenet121_osteoporosis_intensive_20251006_183913.h5",
+  "file_size": 35136904,
+  "created_date": "2025-10-06T23:45:12.054696",
+  "description": "Quick DenseNet121 model for osteoporosis detection",
+  "tags": [
+    "Quick",
+    "DenseNet121",
+    "osteoporosis",
+    "binary_classification"
+  ],
+  "threshold": 0.5
+}

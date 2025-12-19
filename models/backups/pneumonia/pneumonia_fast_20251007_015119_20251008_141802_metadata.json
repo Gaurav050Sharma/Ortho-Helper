@@ -1,0 +1,45 @@
+{
+  "model_id": "pneumonia_fast_20251007_015119",
+  "model_name": "Pneumonia Fast Model",
+  "dataset_type": "pneumonia",
+  "version": "v1.0",
+  "architecture": "MobileNetV2",
+  "model_type": "Fast",
+  "input_shape": [
+    128,
+    128,
+    3
+  ],
+  "num_classes": 2,
+  "class_names": [
+    "Normal",
+    "Pneumonia"
+  ],
+  "classes": [
+    "Normal",
+    "Pneumonia"
+  ],
+  "parameters": 1464113,
+  "performance_metrics": {
+    "test_accuracy": 0.8719,
+    "training_time": "~1 minute",
+    "inference_speed": "Fast"
+  },
+  "accuracy": 0.8719,
+  "training_info": {
+    "timestamp": "20251007_015119",
+    "epochs": 3,
+    "batch_size": 64
+  },
+  "file_path": "pneumonia\\mobilenet_pneumonia_fast_20251007_015119_final.h5",
+  "file_size": 6868032,
+  "created_date": "2025-10-07T01:53:20.329487",
+  "description": "Fast MobileNetV2 model for pneumonia detection",
+  "tags": [
+    "Fast",
+    "MobileNetV2",
+    "pneumonia",
+    "binary_classification"
+  ],
+  "threshold": 0.5
+}

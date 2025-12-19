@@ -1,0 +1,29 @@
+{
+  "timestamp": "20251007_013114",
+  "total_time_minutes": 1.05,
+  "configuration": {
+    "epochs": 3,
+    "batch_size": 64,
+    "learning_rate": 0.002,
+    "image_size": [
+      128,
+      128
+    ],
+    "validation_split": 0.15,
+    "steps_per_epoch": 50,
+    "validation_steps": 10
+  },
+  "results": [
+    {
+      "dataset": "cardiomegaly",
+      "display_name": "\u2764\ufe0f Cardiomegaly Detection",
+      "training_time": 1.04,
+      "epochs_trained": 3,
+      "best_epoch": 1,
+      "best_accuracy": 65.31,
+      "final_accuracy": 65.16,
+      "model_path": "models\\cardiomegaly\\mobilenet_cardiomegaly_fast_20251007_013114_best.h5",
+      "parameters": 1464113
+    }
+  ]
+}

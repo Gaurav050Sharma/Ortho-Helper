@@ -1,0 +1,50 @@
+{
+  "admin": {
+    "password": "admin2025",
+    "role": "doctor",
+    "full_name": "System Administrator",
+    "email": "admin@medicalai.com",
+    "is_admin": true
+  },
+  "doctor": {
+    "password": "medical123",
+    "role": "doctor",
+    "full_name": "Dr. Medical Professional",
+    "email": "doctor@hospital.com"
+  },
+  "student": {
+    "password": "learn123",
+    "role": "student",
+    "full_name": "Medical Student",
+    "email": "student@university.edu"
+  },
+  "student11": {
+    "password": "learn12311",
+    "role": "student",
+    "full_name": "Student User",
+    "email": "student11@hospital.com",
+    "created_at": "2025-10-02T14:36:10.624572"
+  },
+  "farhaan": {
+    "password": "farhaan11",
+    "role": "student",
+    "full_name": "Student User",
+    "email": "farhaan@hospital.com",
+    "created_at": "2025-10-03T14:58:51.050739"
+  },
+  "doc": {
+    "password": "doc123",
+    "role": "doctor",
+    "full_name": "Doctor User",
+    "email": "doc@hospital.com",
+    "created_at": "2025-10-04T18:40:37.236813"
+  },
+  "test_student123": {
+    "password": "password123",
+    "role": "student",
+    "full_name": "Student User",
+    "email": "test_student123@hospital.com",
+    "created_at": "2025-10-06T19:32:28.045786",
+    "created_by": "self_registration"
+  }
+}

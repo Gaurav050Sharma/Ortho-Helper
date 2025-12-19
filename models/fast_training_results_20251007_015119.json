@@ -1,0 +1,73 @@
+{
+  "timestamp": "20251007_015119",
+  "total_time_minutes": 5.87,
+  "configuration": {
+    "epochs": 3,
+    "batch_size": 64,
+    "learning_rate": 0.002,
+    "image_size": [
+      128,
+      128
+    ],
+    "validation_split": 0.15,
+    "steps_per_epoch": 50,
+    "validation_steps": 10
+  },
+  "results": [
+    {
+      "dataset": "pneumonia",
+      "display_name": "\ud83e\udec1 Pneumonia Detection",
+      "training_time": 2.02,
+      "epochs_trained": 3,
+      "best_epoch": 1,
+      "best_accuracy": 87.19,
+      "final_accuracy": 83.91,
+      "model_path": "models\\pneumonia\\mobilenet_pneumonia_fast_20251007_015119_best.h5",
+      "parameters": 1464113
+    },
+    {
+      "dataset": "cardiomegaly",
+      "display_name": "\u2764\ufe0f Cardiomegaly Detection",
+      "training_time": 0.58,
+      "epochs_trained": 3,
+      "best_epoch": 3,
+      "best_accuracy": 65.62,
+      "final_accuracy": 65.62,
+      "model_path": "models\\cardiomegaly\\mobilenet_cardiomegaly_fast_20251007_015119_best.h5",
+      "parameters": 1464113
+    },
+    {
+      "dataset": "arthritis",
+      "display_name": "\ud83e\uddb5 Knee Arthritis Detection",
+      "training_time": 1.33,
+      "epochs_trained": 3,
+      "best_epoch": 3,
+      "best_accuracy": 97.03,
+      "final_accuracy": 97.03,
+      "model_path": "models\\arthritis\\mobilenet_arthritis_fast_20251007_015119_best.h5",
+      "parameters": 1464113
+    },
+    {
+      "dataset": "osteoporosis",
+      "display_name": "\ud83e\uddb4 Knee Osteoporosis Detection",
+      "training_time": 1.22,
+      "epochs_trained": 3,
+      "best_epoch": 3,
+      "best_accuracy": 86.9,
+      "final_accuracy": 86.9,
+      "model_path": "models\\osteoporosis\\mobilenet_osteoporosis_fast_20251007_015119_best.h5",
+      "parameters": 1464113
+    },
+    {
+      "dataset": "bone_fracture",
+      "display_name": "\ud83d\udc80 Bone Fracture Detection",
+      "training_time": 0.69,
+      "epochs_trained": 3,
+      "best_epoch": 2,
+      "best_accuracy": 77.04,
+      "final_accuracy": 76.73,
+      "model_path": "models\\bone_fracture\\mobilenet_bone_fracture_fast_20251007_015119_best.h5",
+      "parameters": 1464113
+    }
+  ]
+}

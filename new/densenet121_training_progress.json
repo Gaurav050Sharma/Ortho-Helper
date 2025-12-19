@@ -1,0 +1,174 @@
+{
+  "pneumonia_standard": {
+    "dataset": "pneumonia",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-06T18:14:14.928630",
+    "results": {
+      "test_loss": 0.18315887451171875,
+      "test_accuracy": 0.9399999976158142,
+      "test_precision": 0.9038461446762085,
+      "test_recall": 0.9791666865348816,
+      "training_samples": 800,
+      "test_samples": 200,
+      "epochs_trained": 10,
+      "best_val_accuracy": 0.96875,
+      "final_training_accuracy": 0.996874988079071,
+      "training_time_seconds": 272.99619221687317,
+      "saved_files": {}
+    }
+  },
+  "pneumonia_intensive": {
+    "dataset": "pneumonia",
+    "configuration": "intensive",
+    "status": "completed",
+    "timestamp": "2025-10-06T18:23:31.561949",
+    "results": {
+      "test_loss": 0.1445036232471466,
+      "test_accuracy": 0.9574999809265137,
+      "test_precision": 0.9735449552536011,
+      "test_recall": 0.9387755393981934,
+      "training_samples": 1600,
+      "test_samples": 400,
+      "epochs_trained": 11,
+      "best_val_accuracy": 0.9750000238418579,
+      "final_training_accuracy": 0.9937499761581421,
+      "training_time_seconds": 556.5331535339355,
+      "saved_files": {}
+    }
+  },
+  "cardiomegaly_standard": {
+    "dataset": "cardiomegaly",
+    "configuration": "standard",
+    "status": "failed",
+    "timestamp": "2025-10-06T18:23:31.696950",
+    "results": {
+      "error": "Cannot cast array data from dtype('float64') to dtype('int64') according to the rule 'safe'",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\Capstone\\orth10\\train_densenet121_all_datasets.py\", line 720, in run_densenet121_training\n    X, y = self.load_dataset(dataset_info, config_info)\n  File \"D:\\Capstone\\orth10\\train_densenet121_all_datasets.py\", line 231, in load_dataset\n    print(f\"   Class distribution: {np.bincount(y)}\")\n  File \"<__array_function__ internals>\", line 200, in bincount\nTypeError: Cannot cast array data from dtype('float64') to dtype('int64') according to the rule 'safe'\n"
+    }
+  },
+  "cardiomegaly_intensive": {
+    "dataset": "cardiomegaly",
+    "configuration": "intensive",
+    "status": "failed",
+    "timestamp": "2025-10-06T18:23:31.700951",
+    "results": {
+      "error": "Cannot cast array data from dtype('float64') to dtype('int64') according to the rule 'safe'",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\Capstone\\orth10\\train_densenet121_all_datasets.py\", line 720, in run_densenet121_training\n    X, y = self.load_dataset(dataset_info, config_info)\n  File \"D:\\Capstone\\orth10\\train_densenet121_all_datasets.py\", line 231, in load_dataset\n    print(f\"   Class distribution: {np.bincount(y)}\")\n  File \"<__array_function__ internals>\", line 200, in bincount\nTypeError: Cannot cast array data from dtype('float64') to dtype('int64') according to the rule 'safe'\n"
+    }
+  },
+  "osteoporosis_standard": {
+    "dataset": "osteoporosis",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-06T18:26:55.657010",
+    "results": {
+      "test_loss": 0.3500266969203949,
+      "test_accuracy": 0.8450000286102295,
+      "test_precision": 0.8474576473236084,
+      "test_recall": 0.8849557638168335,
+      "training_samples": 800,
+      "test_samples": 200,
+      "epochs_trained": 7,
+      "best_val_accuracy": 0.862500011920929,
+      "final_training_accuracy": 0.949999988079071,
+      "training_time_seconds": 203.9540557861328,
+      "saved_files": {}
+    }
+  },
+  "osteoporosis_intensive": {
+    "dataset": "osteoporosis",
+    "configuration": "intensive",
+    "status": "completed",
+    "timestamp": "2025-10-06T18:39:15.746015",
+    "results": {
+      "test_loss": 0.19110843539237976,
+      "test_accuracy": 0.9177377820014954,
+      "test_precision": 0.9567567706108093,
+      "test_recall": 0.8805969953536987,
+      "training_samples": 1556,
+      "test_samples": 389,
+      "epochs_trained": 15,
+      "best_val_accuracy": 0.9647436141967773,
+      "final_training_accuracy": 0.9774919748306274,
+      "training_time_seconds": 740.0014078617096,
+      "saved_files": {}
+    }
+  },
+  "osteoarthritis_standard": {
+    "dataset": "osteoarthritis",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-06T18:43:47.874965",
+    "results": {
+      "test_loss": 0.1975834220647812,
+      "test_accuracy": 0.9200000166893005,
+      "test_precision": 0.9425287246704102,
+      "test_recall": 0.8817204236984253,
+      "training_samples": 800,
+      "test_samples": 200,
+      "epochs_trained": 10,
+      "best_val_accuracy": 0.9125000238418579,
+      "final_training_accuracy": 0.9984375238418579,
+      "training_time_seconds": 271.9927775859833,
+      "saved_files": {}
+    }
+  },
+  "osteoarthritis_intensive": {
+    "dataset": "osteoarthritis",
+    "configuration": "intensive",
+    "status": "completed",
+    "timestamp": "2025-10-06T18:54:59.276547",
+    "results": {
+      "test_loss": 0.15799367427825928,
+      "test_accuracy": 0.9424999952316284,
+      "test_precision": 0.9635416865348816,
+      "test_recall": 0.9203979969024658,
+      "training_samples": 1600,
+      "test_samples": 400,
+      "epochs_trained": 12,
+      "best_val_accuracy": 0.953125,
+      "final_training_accuracy": 0.9937499761581421,
+      "training_time_seconds": 671.2974336147308,
+      "saved_files": {}
+    }
+  },
+  "limbs_standard": {
+    "dataset": "limbs",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-06T18:57:54.370963",
+    "results": {
+      "test_loss": 0.5451804995536804,
+      "test_accuracy": 0.7250000238418579,
+      "test_precision": 0.7647058963775635,
+      "test_recall": 0.6499999761581421,
+      "training_samples": 800,
+      "test_samples": 200,
+      "epochs_trained": 6,
+      "best_val_accuracy": 0.731249988079071,
+      "final_training_accuracy": 0.965624988079071,
+      "training_time_seconds": 174.93267917633057,
+      "saved_files": {}
+    }
+  },
+  "limbs_intensive": {
+    "dataset": "limbs",
+    "configuration": "intensive",
+    "status": "completed",
+    "timestamp": "2025-10-06T19:03:50.536827",
+    "results": {
+      "test_loss": 0.5801028609275818,
+      "test_accuracy": 0.7300000190734863,
+      "test_precision": 0.6965811848640442,
+      "test_recall": 0.8149999976158142,
+      "training_samples": 1600,
+      "test_samples": 400,
+      "epochs_trained": 6,
+      "best_val_accuracy": 0.784375011920929,
+      "final_training_accuracy": 0.9390624761581421,
+      "training_time_seconds": 356.073867559433,
+      "saved_files": {}
+    }
+  }
+}

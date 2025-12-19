@@ -1,0 +1,17 @@
+{
+  "applied_at": "2025-10-06T04:57:45.286528",
+  "thermal_level": "Conservative",
+  "modifications": {
+    "batch_sizes": {
+      "thermal_safe": 8,
+      "quick_test": 16,
+      "standard": 20,
+      "intensive": 16
+    },
+    "cooling_breaks": 30,
+    "max_cpu_threads": 2,
+    "epochs_per_cooling": 2
+  },
+  "original_total_combinations": 75,
+  "estimated_training_time_increase": "150-300%"
+}

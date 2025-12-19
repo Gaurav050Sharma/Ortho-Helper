@@ -1,0 +1,60 @@
+{
+  "model_info": {
+    "name": "DenseNet121_Cardiomegaly_Standard",
+    "architecture": "DenseNet121",
+    "dataset": "Cardiomegaly",
+    "configuration": "Standard",
+    "timestamp": "20251006_191716",
+    "total_parameters": 7305281
+  },
+  "performance": {
+    "test_loss": 0.6093223094940186,
+    "test_accuracy": 0.6800000071525574,
+    "test_precision": 0.7216494679450989,
+    "test_recall": 0.6542056202888489,
+    "training_samples": 800,
+    "test_samples": 200,
+    "epochs_trained": 8,
+    "best_val_accuracy": 0.65625,
+    "final_training_accuracy": 0.9937499761581421,
+    "training_time_seconds": 208.716953
+  },
+  "training_config": {
+    "name": "Standard",
+    "max_images_per_class": 500,
+    "epochs": 10,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "validation_split": 0.2,
+    "test_split": 0.2,
+    "patience": 3
+  },
+  "dataset_info": {
+    "name": "Cardiomegaly",
+    "path": "Dataset/CHEST/cardiomelgy/train/train",
+    "classes": [
+      "false",
+      "true"
+    ],
+    "folders": [
+      "false",
+      "true"
+    ],
+    "type": "chest",
+    "description": "Heart enlargement detection",
+    "class_labels": [
+      "Normal",
+      "Cardiomegaly"
+    ]
+  },
+  "gradcam_optimization": {
+    "optimized_for_gradcam": true,
+    "recommended_layer": "conv5_block16_2_conv",
+    "architecture_benefits": [
+      "Dense connectivity preserves gradients",
+      "Excellent for cardiac imaging visualization",
+      "Superior gradient flow for heart abnormalities",
+      "Clear heatmaps for cardiomegaly detection"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "standard": {
+    "dataset": "cardiomegaly",
+    "configuration": "standard",
+    "status": "completed",
+    "timestamp": "2025-10-06T19:17:18.949509",
+    "results": {
+      "test_loss": 0.6093223094940186,
+      "test_accuracy": 0.6800000071525574,
+      "test_precision": 0.7216494679450989,
+      "test_recall": 0.6542056202888489,
+      "training_samples": 800,
+      "test_samples": 200,
+      "epochs_trained": 8,
+      "best_val_accuracy": 0.65625,
+      "final_training_accuracy": 0.9937499761581421,
+      "training_time_seconds": 208.716953
+    }
+  },
+  "intensive": {
+    "dataset": "cardiomegaly",
+    "configuration": "intensive",
+    "status": "completed",
+    "timestamp": "2025-10-06T19:24:07.244759",
+    "results": {
+      "test_loss": 0.891849160194397,
+      "test_accuracy": 0.6299999952316284,
+      "test_precision": 0.6815642714500427,
+      "test_recall": 0.5727699398994446,
+      "training_samples": 1600,
+      "test_samples": 400,
+      "epochs_trained": 8,
+      "best_val_accuracy": 0.6968749761581421,
+      "final_training_accuracy": 0.981249988079071,
+      "training_time_seconds": 387.488542
+    }
+  }
+}
