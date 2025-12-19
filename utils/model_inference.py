@@ -494,8 +494,9 @@ def load_single_model(model_name: str):
                     
                     return model
                 except Exception as keras_error:
-                    print(f"✗ Failed to load {model_name} model from .keras format")
-                    print(f"Error: {str(keras_error)[:200]}")
+                    msg = f"✗ Failed to load {model_name} model from .keras format: {str(keras_error)[:200]}"
+                    print(msg)
+                    st.error(msg)
                     
                     # Try loading .h5 file as fallback
                     h5_path = model_path.replace('.keras', '.h5')
@@ -513,16 +514,22 @@ def load_single_model(model_name: str):
                             
                             return model
                         except Exception as h5_error:
-                            print(f"✗ Failed to load from .h5 format: {str(h5_error)[:200]}")
+                            msg = f"✗ Failed to load from .h5 format: {str(h5_error)[:200]}"
+                            print(msg)
+                            st.error(msg)
                     
                     return None
                     
         except Exception as load_error:
-            print(f"✗ Unexpected error loading {model_name}: {str(load_error)[:200]}")
+            msg = f"✗ Unexpected error loading {model_name}: {str(load_error)[:200]}"
+            print(msg)
+            st.error(msg)
             return None
         
     except Exception as e:
-        print(f"Error loading {model_name} model: {str(e)[:200]}")
+        msg = f"Error loading {model_name} model: {str(e)[:200]}"
+        print(msg)
+        st.error(msg)
         return None
 
 def predict_binary_model(model, image_array: np.ndarray, class_names: list) -> Tuple[str, float]:
