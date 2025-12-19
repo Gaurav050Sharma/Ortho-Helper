@@ -1,11 +1,26 @@
 # Model Inference Module for Medical X-ray AI System
 
 import numpy as np
+import os
+
+# Ensure legacy Keras is used if not already set
+if 'TF_USE_LEGACY_KERAS' not in os.environ:
+    os.environ['TF_USE_LEGACY_KERAS'] = '1'
+
 import tensorflow as tf
+
+# Try to import tf_keras directly for maximum compatibility
 try:
-    from tensorflow import keras
+    import tf_keras as keras
+    print("Using tf_keras (Legacy Keras) directly")
 except ImportError:
-    import keras
+    try:
+        from tensorflow import keras
+        print(f"Using tensorflow.keras (Version: {tf.__version__})")
+    except ImportError:
+        import keras
+        print("Using standalone keras")
+
 import streamlit as st
 from typing import Tuple, Dict, Any
 import os
@@ -468,12 +483,13 @@ def load_single_model(model_name: str):
             
             # Try method 1: Load with compile=False (TensorFlow 2.15/Keras 2.15)
             try:
-                model = tf.keras.models.load_model(model_path, compile=False)
+                # Use the imported keras module (which might be tf_keras)
+                model = keras.models.load_model(model_path, compile=False)
                 print(f"✓ Successfully loaded {model_name} model")
                 
                 # Compile the model for predictions
                 model.compile(
-                    optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+                    optimizer=keras.optimizers.Adam(learning_rate=0.001),
                     loss='binary_crossentropy',
                     metrics=['accuracy']
                 )
@@ -483,11 +499,11 @@ def load_single_model(model_name: str):
                 print(f"Method 1 failed: {str(e)[:100]}")
                 # Try method 2: Load with safe_mode=False
                 try:
-                    model = tf.keras.models.load_model(model_path, compile=False, safe_mode=False)
+                    model = keras.models.load_model(model_path, compile=False, safe_mode=False)
                     print(f"✓ Successfully loaded {model_name} model (safe_mode=False)")
                     
                     model.compile(
-                        optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+                        optimizer=keras.optimizers.Adam(learning_rate=0.001),
                         loss='binary_crossentropy',
                         metrics=['accuracy']
                     )
@@ -503,11 +519,11 @@ def load_single_model(model_name: str):
                     if os.path.exists(h5_path) and h5_path != model_path:
                         try:
                             print(f"Attempting to load from .h5 format: {h5_path}")
-                            model = tf.keras.models.load_model(h5_path, compile=False)
+                            model = keras.models.load_model(h5_path, compile=False)
                             print(f"✓ Successfully loaded {model_name} model from .h5")
                             
                             model.compile(
-                                optimizer=tf.keras.optimizers.Adam(learning_rate=0.001),
+                                optimizer=keras.optimizers.Adam(learning_rate=0.001),
                                 loss='binary_crossentropy',
                                 metrics=['accuracy']
                             )
