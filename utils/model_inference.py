@@ -451,9 +451,14 @@ def load_single_model(model_name: str):
             print(f"Model file not found: {model_path}")
             # Also check if we can suggest an alternative path
             alt_h5_path = model_path.replace('.keras', '.h5')
+            alt_keras_path = model_path.replace('.h5', '.keras')
+            
             if os.path.exists(alt_h5_path):
                 print(f"Found alternative .h5 file, trying: {alt_h5_path}")
                 model_path = alt_h5_path
+            elif os.path.exists(alt_keras_path):
+                print(f"Found alternative .keras file, trying: {alt_keras_path}")
+                model_path = alt_keras_path
             else:
                 return None
         

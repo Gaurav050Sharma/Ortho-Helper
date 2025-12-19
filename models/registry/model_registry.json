@@ -1521,7 +1521,7 @@
     "pneumonia": "pneumonia_new_intensive",
     "arthritis": "arthritis_new_intensive",
     "osteoporosis": "osteoporosis_new_intensive",
-    "bone_fracture": "bone_fracture_densenet121_ultra_20251129_210113",
+    "bone_fracture": "bone_fracture_new_intensive",
     "cardiomegaly": "cardiomegaly_new_intensive",
     "chest_conditions": null,
     "knee_conditions": null
