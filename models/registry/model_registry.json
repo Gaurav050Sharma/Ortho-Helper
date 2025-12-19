@@ -34,7 +34,7 @@
         "source": "new_folder_intensive_training",
         "performance_level": "Medical Grade"
       },
-      "file_path": "pneumonia/densenet121_pneumonia_intensive_20251006_182328.h5",
+      "file_path": "pneumonia/densenet121_pneumonia_intensive_20251006_182328.keras",
       "file_size": 33.51,
       "created_date": "2025-10-06",
       "description": "Latest intensive training model from new folder for pneumonia detection",
@@ -72,7 +72,7 @@
         "source": "new_folder_intensive_training",
         "performance_level": "Medical Grade"
       },
-      "file_path": "arthritis/densenet121_osteoarthritis_intensive_20251006_185456.h5",
+      "file_path": "arthritis/densenet121_osteoarthritis_intensive_20251006_185456.keras",
       "file_size": 33.51,
       "created_date": "2025-10-06",
       "description": "Latest intensive training model from new folder for arthritis detection",
@@ -110,7 +110,7 @@
         "source": "new_folder_intensive_training",
         "performance_level": "Medical Grade"
       },
-      "file_path": "osteoporosis/densenet121_osteoporosis_intensive_20251006_183913.h5",
+      "file_path": "osteoporosis/densenet121_osteoporosis_intensive_20251006_183913.keras",
       "file_size": 33.51,
       "created_date": "2025-10-06",
       "description": "Latest intensive training model from new folder for osteoporosis detection",
@@ -148,7 +148,7 @@
         "source": "new_folder_intensive_training",
         "performance_level": "Research Grade"
       },
-      "file_path": "bone_fracture/densenet121_limbabnormalities_intensive_20251006_190347.h5",
+      "file_path": "bone_fracture/densenet121_limbabnormalities_intensive_20251006_190347.keras",
       "file_size": 33.51,
       "created_date": "2025-10-06",
       "description": "Latest intensive training model from new folder for bone_fracture detection",
@@ -186,7 +186,7 @@
         "source": "new_folder_intensive_training",
         "performance_level": "Research Grade"
       },
-      "file_path": "cardiomegaly/cardiomegaly_densenet121_intensive_20251006_192404.h5",
+      "file_path": "cardiomegaly/cardiomegaly_densenet121_intensive_20251006_192404.keras",
       "file_size": 33.51,
       "created_date": "2025-10-06",
       "description": "Latest intensive training model from new folder for cardiomegaly detection",
